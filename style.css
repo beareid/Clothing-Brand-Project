@@ -3,3 +3,29 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  align-items: center;
+  background-color: #0E060A;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.title {
+  color: #FF715B;
+  font-family: proxima-nova;
+  font-size: 2rem;
+  font-weight: 900;
+  margin: auto;
+}
+
+.links a {
+  color: #FFF;
+  font-size: .6rem;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #CDCECA;
+}
