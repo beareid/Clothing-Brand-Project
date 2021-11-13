@@ -8,24 +8,50 @@ body {
   align-items: center;
   background-color: #0E060A;
   display: flex;
+  flex-direction: column;
   height: 100vh;
   justify-content: center;
 }
 
 .title {
   color: #FF715B;
-  font-family: proxima-nova;
+  font-family: 'Cormorant Garamond', serif;
   font-size: 2rem;
   font-weight: 900;
-  margin: auto;
+}
+
+.links {
+  margin-top: 2rem;
 }
 
 .links a {
   color: #FFF;
-  font-size: .6rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: .65rem;
   text-decoration: none;
 }
 
 a:hover {
   color: #CDCECA;
 }
+
+.shop {
+  margin-right: 1.5rem;
+}
+
+.about {
+  margin-left: 1.5rem;
+}
+
+i:hover {
+  color: #FFF;
+}
+
+.fa-instagram {
+  color: #FF715B;
+}
+
+.fa-discord {
+  color: #FF715B;
+}
+
