@@ -8,10 +8,12 @@ body {
   background-color: #0E060A;
 }
 
+/* Title Content */
+
 .title-container {
   align-items: center;
   display: flex;
-  height: 95vh;
+  height: 90vh;
   flex-direction: column;
   justify-content: center;
   margin: 0;
@@ -23,6 +25,12 @@ body {
   font-size: 2rem;
   font-weight: 900;
 }
+
+sup {
+  font-size: .9rem;
+}
+
+/* Anchor Elements */
 
 .links {
   margin-top: 2rem;
@@ -47,9 +55,7 @@ a:hover {
   margin-left: 1.5rem;
 }
 
-i:hover {
-  color: #FFF;
-}
+/* Footer Content */
 
 footer {
   align-items: center;
@@ -61,14 +67,15 @@ footer {
   justify-content: center;
 }
 
-.fa-copyright {
-  font-size: .7rem;
+i:hover {
+  color: #CDCECA;
 }
 
-.fa-instagram {
+.fa-instagram, .fa-twitter, .fa-discord {
+  color: #FFF;
   margin: .3rem;
 }
 
-.fa-discord {
-  margin: .3rem;
+.trademark {
+  margin-top: 1rem;
 }
