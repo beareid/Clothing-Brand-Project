@@ -5,12 +5,16 @@
 }
 
 body {
-  align-items: center;
   background-color: #0E060A;
+}
+
+.title-container {
+  align-items: center;
   display: flex;
+  height: 95vh;
   flex-direction: column;
-  height: 100vh;
   justify-content: center;
+  margin: 0;
 }
 
 .title {
@@ -47,11 +51,24 @@ i:hover {
   color: #FFF;
 }
 
-.fa-instagram {
+footer {
+  align-items: center;
   color: #FF715B;
+  display: flex;
+  flex-direction: column;
+  font-size: .8rem;
+  font-family: 'Cormorant Garamond', serif;
+  justify-content: center;
+}
+
+.fa-copyright {
+  font-size: .7rem;
+}
+
+.fa-instagram {
+  margin: .3rem;
 }
 
 .fa-discord {
-  color: #FF715B;
+  margin: .3rem;
 }
-
