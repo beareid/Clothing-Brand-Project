@@ -1,8 +1,9 @@
+// Front page title event listener
 const title = document.querySelector(".title")
 const sup = document.createElement("sup")
 sup.textContent = "©"
 
-title.addEventListener("mouseover", mouseOver);
+title.addEventListener("mouseover", mouseOver)
 title.addEventListener("mouseout", mouseOut)
 
 function mouseOver() {
